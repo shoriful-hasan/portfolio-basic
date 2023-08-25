@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100;200;300;400;700;800;900&display=swap');
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;   
+}
+body
+{
+overflow-x: hidden;    
+}
+
+header
+{
+top: 0px; 
+position: fixed;    
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;    
+background:white;
+box-shadow: 2px 2px 2px rgb(238,174,201);
+z-index: 1;
+}
+
+header .logo
+{
+position: absolute;    
+left: 30px;
+
+}
+
+header .nav
+{
+position: absolute;
+right: 70px;    
+}
+header .nav ul
+{
+display: flex;  
+}
+header .nav ul li
+{
+margin-inline: 15px;    
+}
+
+header .nav ul li a
+{
+text-transform: uppercase;
+font-size: 12px;  
+color: rgb(41,41,41);  
+font-weight:bold;
+transition: 0.5s;
+}
+header .nav ul li a:hover
+{
+color: #7f97ff;;    
+}
+
+.redlight
+{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: space-around; 
+align-items: center;  
+margin-top: 75px !important;
+}
+.redlight .text
+{
+width: 50%;
+}
+
+.redlight .text
+{
+margin-left: 160px;
+margin-bottom: 120px;    
+}
+.redlight .text h3
+{
+font-weight: normal;
+}
+.redlight .text h1
+{
+font-size: 60px; 
+text-transform: uppercase;   
+}
+
+.redlight .text p
+{
+color: rgba(78,78,78,0.7);
+margin-top: 45px;
+margin-bottom: 25px;
+text-transform: uppercase;
+}
+
+
+.redlight .emg
+{
+width: 50%;    
+}
+
+.redlight .emg img
+{
+max-width: 100%;  
+padding: 5px;  
+}
+
+.btn
+{
+background: linear-gradient( 0deg, #8490ff 0%, #62bdfc 100%);
+padding-left: 30px;
+padding-right:30px;
+display: inline-block;
+line-height: 42px;
+border: none;
+outline: none;
+}
+
+
+
+.two
+{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;  
+width: 100%;
+height: 650px;
+top: 30px;  
+}
+
+.two .right-side
+{
+    
+position: absolute;
+width: 40%;
+right: 60px;
+top:149px;
+}
+
+.two .right-side h3
+{
+margin-bottom: 60px;
+font-weight: 400;
+color: rgba(0,0,0,0.9);    
+}
+
+
+
+.two .right-side h1
+{
+margin-bottom: 60px;
+font-weight: 700;
+font-size: 1.6rem;
+font-family: 'poppins';
+color: rgba(0,0,0,0.9);
+}
+
+
+.two .right-side p
+{
+line-height: 20px;    
+margin-bottom: 30px;
+max-width: 413px;
+color: rgba(68, 63, 63, 0.9);  
+font-family: 'poppin';
+font-weight: 540;  
+}
+
+
+/* section 3 design start */
+.container
+{
+ width: 90%;
+ height: 750px;
+ padding: auto 8%; 
+ margin: 0 auto;
+ margin-top: 70px;
+}
+
+.rose
+{
+text-align: center; 
+   
+}
+
+.rose h1
+{
+font-size: 2.25rem;
+font-weight: 600;
+color: rgba(68, 63, 63, 0.9); 
+margin-top: 20px;
+margin-bottom: 20px;
+position: relative;  
+}
+
+.rose h1::after
+{
+content: '';
+background: #303ef7;
+width:190px;
+height: 3px;
+position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translate(-50%);
+    
+}
+.rose p
+{
+width: 670px;
+margin: 0 auto;
+color: rgba(0,0,0,0.8);
+font-size: 18px;
+margin-bottom: 50px;
+}
+
+.row .service:hover
+{
+ background: #8293ff;
+ color: white;   
+}
+
+
+.row
+{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(270px,1fr));    
+grid-gap: 90px;
+}
+
+.service
+{
+text-align: center;    
+}
+.service h2
+{
+margin-top: 30px;
+margin-bottom: 20px;   
+font-size: 1.8rem;
+text-transform: capitalize;
+font-weight: 600;
+color: rgba(0,0,0,0.9); 
+}
+
+
+.service p
+{
+max-width: 350px; 
+color: rgba(0,0,0,0.8);
+}
+
+.service .icon{font-size: 45px;}
+
+.section4
+{
+width: 100%;
+height: 200px;
+background-color: #8293ff; 
+display: flex;
+justify-content: space-around;
+align-items: center;   
+}
+
+.section4 div h1
+{
+text-align: center;
+font-size: 4rem;
+color: white;
+font-weight: 800;
+}
+
+.section4 div p
+{
+font-size: 1rem;    
+font-weight: 600;
+color: white;
+text-align: center;
+}
+
+
+.section5
+{
+width: 100%;
+box-sizing: border-box;    
+}
+
+.section5 .port-text
+{
+text-align: center; 
+margin-top: 150px;
+line-height:45px; 
+margin-bottom: 200px;  
+}
+.section5 .port-text h1
+{
+font-size: 45px;
+color: rgba(0,0,0,0.9);    
+}
+
+.section5 .port-text p
+{
+color: rgba(0,0,0,0.8);
+text-align: center;    
+}
+
+.first
+{
+width: 100%;
+height:1000px; 
+margin-bottom: 250px;   
+}
+
+.second
+{
+display: flex;
+flex-wrap: wrap; 
+width: 100%;
+justify-content: center;
+align-items: c;  
+}
+.third
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px 20px;    
+border-radius: 6px;
+}
+.third h1
+{
+margin-top: 15px;
+color: rgba(0,0,0,0.8);    
+}
+.third p
+{
+color: rgba(0,0,0,0.9);
+font-weight: 600;    
+}
+.third img
+{
+width: 350px;    
+}
+
+.lest
+{
+display: flex;
+justify-content: center;    
+margin-bottom: 50px;
+}
+.lest ul
+{
+display: flex;    
+}
+
+.lest ul li
+{
+margin-left: 30px;
+}
+.lest ul li a
+{
+ text-transform: uppercase;
+ color: black;   
+font-size: 15px;
+position: relative;
+}
+
+.lest ul li a::before
+{
+content: '';
+position: absolute;
+width: 0;
+height: 1.8px;
+left: 0;
+background: red;
+bottom: 0;
+}
+.lest ul li:hover a::before
+{
+right: 100%;    
+width: 100%;
+}
+.lest .rong{color: #8490ff;}
+
+
+
+.sobgula-lekha-aiter-vitoray-asay
+{
+width: 100%;
+justify-content: center;   
+
+}
+
+.sobgula-lekha-aiter-vitoray-asay .prothom-lekha
+{
+display: flex; 
+flex-direction: column;
+text-align: center; 
+line-height: 48px; 
+margin-bottom: 100px 
+}
+
+.sobgula-lekha-aiter-vitoray-asay .prothom-lekha h1
+{
+font-size: 2.6rem;
+color: rgba(0,0,0,0.9);
+font-family: 'poppins';
+text-transform: uppercase;
+word-spacing: 1.5px;
+} 
+
+.sobgula-lekha-aiter-vitoray-asay .prothom-lekha p
+{
+   
+text-transform:uppercase;
+font-size: 15px;
+word-spacing: 1px;
+color: rgba(0,0,0,0.8);   
+}
+
+.tight-bear
+{
+width: 100%;
+margin: 80px 37px;    
+justify-content: center;
+display: flex;
+}
+
+.first-bear ,.second-bear
+{
+
+display: flex;
+position: relative;
+
+}
+
+.first-bear .ima ,.tima
+{
+margin-right: 30px;   
+}
+.first-bear .ima img , .second-bear .tima img
+{
+border-radius: 50%;    
+}
+
+.first-bear .dtrail , .second-bear .tretail
+{
+width: 366px; 
+margin-bottom: 20px;       
+}
+
+.first-bear .dtrail p ,.second-bear .tretail p
+{
+color: rgba(0,0,0,0.8);
+margin-bottom: 32px;    
+}
+
+.first-bear .dtrail h1 ,.second-bear .tretail h1
+{
+color: rgba(0,0,0,0.9);
+font-weight: 400;
+margin-bottom: 15px;    
+}
+
+.first-bear .dtrail a ,.second-bear .tretail a
+{
+color: #333;    
+}
+
+.second-bear .tima img
+{
+width: 40px;    
+}
+
+.second-bear
+{
+margin-left: 70px;    
+}
+
+/* pricing table css design start here */
+
+.section6
+{
+width: 100%;
+height: 700px;  
+padding-top: 60px;  
+}
+
+.section6 .text4
+{
+text-align: center;
+padding: 2% 0; 
+margin-bottom: 80px;   
+}
+
+.section6 .text4 h1
+{
+font-size: 40px;
+padding-top: 15px;    
+}
+.section6 .text4 p
+{
+color: rgba(0,0,0,0.7);  
+margin-top: 20px;  
+}
+
+.section6 .cardparent
+{
+width: 75%;
+height: auto;
+display: flex;
+justify-content:space-around;
+margin: 0 auto;  
+  
+}
+
+.section6 .card1
+{
+width: 250px;
+height: 555px;
+border: 1px solid rgba(0,0,0,0.1);
+background-color: rgb(249,249,255);    
+text-align: center;
+}
+.section6 .card1 h1
+{
+font-size: 50px;
+padding-top: 8px;    
+}
+.section6 .card1 input
+{
+outline: none;
+background-color: #8293ff;
+color: white;
+width: 245px;
+text-align: center;
+font-size: 25px;
+padding: 6px 60px;
+font-weight: bold;
+border: 1px solid white;
+cursor:pointer; 
+margin-top: 50px;   
+}
+.section6 .card1:hover
+{
+background-color: #8293ff;
+color: white;
+transition: all 0.5s ease-in;
+transform: scale(1.1);
+border: 1px solid rgba(133,147,255,0.5);
+box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);    
+}
+.section6 .card1:hover input
+{
+color: rgba(0,0,0,0.9);
+background-color: white;    
+text-transform: uppercase;
+border-radius: 10%/50%;
+}
+.section6 .card1 .price
+{
+font-size: 40px;    
+}
+/* pricing table css design end here */
